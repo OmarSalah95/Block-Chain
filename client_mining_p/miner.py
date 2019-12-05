@@ -6,7 +6,7 @@ import json
 
 import time
 
-DIFFICULTY = 3
+DIFFICULTY = 6
 
 
 def proof_of_work(block):
@@ -96,4 +96,5 @@ if __name__ == '__main__':
             coins += 1
             print(f"You've mined {coins} coins so far!")
         else:
-            print(data.message)
+            print(data)
+            print(data['message'])

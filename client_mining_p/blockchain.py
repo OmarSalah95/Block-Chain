@@ -5,7 +5,7 @@ from uuid import uuid4
 from flask import Flask, jsonify, request
 
 
-DIFFICULTY = 3
+DIFFICULTY = 6
 
 
 class Blockchain(object):
