@@ -20,4 +20,3 @@ Create an endpoint at `/transactions/new` that accepts a json `POST`:
         * return a 400 error using `jsonify(response)` with a 'message'
     * upon success, return a 'message' indicating index of the block
       containing the transaction
-
